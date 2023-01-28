@@ -106,7 +106,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_ENTERPRISING_HELP</Tag>
-		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+60% [LINK=UNIT_MERCHANT]Great Merchant[\LINK] emergence[NEWLINE][SPACE][SPACE][ICON_BULLET]+1 Extra Cargo Space for Naval Units</English>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% [LINK=UNIT_MERCHANT]Great Merchant[\LINK] emergence[NEWLINE][SPACE][SPACE][ICON_BULLET]+1 Extra Cargo Space for Naval Units</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_ENTERPRISING_PEDIA</Tag>

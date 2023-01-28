@@ -560,7 +560,6 @@ class CvEventManager:
 					popupInfo.addPopup(iPlayer)
 
 		CvAdvisorUtils.resetNoLiberateCities()
-
 		#give free tech to the expansive leaders
 		for iPlayer in xrange(gc.getMAX_CIV_PLAYERS()):
 			pPlayer = gc.getPlayer(iPlayer)

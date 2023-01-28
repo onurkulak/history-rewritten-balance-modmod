@@ -1548,7 +1548,7 @@
 			<YieldModifiers/>
 			<CapitalYieldModifiers/>
 			<TradeYieldModifiers>
-				<iYield>60</iYield>
+				<iYield>50</iYield>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
 			</TradeYieldModifiers>
