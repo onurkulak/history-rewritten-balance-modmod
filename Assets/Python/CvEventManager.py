@@ -564,8 +564,7 @@ class CvEventManager:
 		#give free tech to the expansive leaders
 		for iPlayer in xrange(gc.getMAX_CIV_PLAYERS()):
 			pPlayer = gc.getPlayer(iPlayer)
-			iTrait = HR.Trait.ExtraRoadSpeed
-			if pPlayer.hasTrait(iTrait):
+			if pPlayer.hasTrait(HR.Trait.ExtraRoadSpeed):
 				iTech = CvUtil.findInfoTypeNum(gc.getTechInfo,gc.getNumTechInfos(),'TECH_FAKE_EXPANSIVE') 
 				gc.getTeam(pPlayer.getTeam()).setHasTech(iTech, True, iPlayer, False, False)
 
