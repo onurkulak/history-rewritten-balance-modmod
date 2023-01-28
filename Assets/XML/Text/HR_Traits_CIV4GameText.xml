@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGGRESSIVE</Tag>
+		<English>Aggressive</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGGRESSIVE_SHORT</Tag>
+		<English>Agg</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGGRESSIVE_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+100%[ICON_GOLD] from Pillaging and Capturing Cities</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGGRESSIVE_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CHARISMATIC</Tag>
+		<English>Charismatic</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CHARISMATIC_SHORT</Tag>
+		<English>Cha</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CHARISMATIC_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% War Weariness[NEWLINE][SPACE][SPACE][ICON_BULLET]+1 Experience from Combat Victory</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CHARISMATIC_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CREATIVE</Tag>
+		<English>Creative</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CREATIVE_SHORT</Tag>
+		<English>Cre</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CREATIVE_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% [LINK=UNIT_ARTIST]Great Artist[\LINK] emergence[NEWLINE][SPACE][SPACE][ICON_BULLET]Cities start with [LINK=BUILDING_KILN]Kilns[\LINK]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CREATIVE_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEFENSIVE</Tag>
+		<English>Defensive</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEFENSIVE_SHORT</Tag>
+		<English>Def</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEFENSIVE_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]Cities start with [LINK=BUILDING_WALLS]Walls[\LINK][NEWLINE][SPACE][SPACE][ICON_BULLET]Captured cities create partisans</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEFENSIVE_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIPLOMATIC</Tag>
+		<English>Diplomatic</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIPLOMATIC_SHORT</Tag>
+		<English>Dip</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIPLOMATIC_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+2 to Relations with other Civilizations[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% [LINK=UNIT_SPY_GREAT]Great Spy[\LINK] emergence[NEWLINE][SPACE][SPACE][ICON_BULLET]+1 Trade Route in every City</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIPLOMATIC_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ENTERPRISING</Tag>
+		<English>Enterprising</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ENTERPRISING_SHORT</Tag>
+		<English>Ent</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ENTERPRISING_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% [LINK=UNIT_MERCHANT]Great Merchant[\LINK] emergence[NEWLINE][SPACE][SPACE][ICON_BULLET]+1 Extra Cargo Space for Naval Units</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ENTERPRISING_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXPANSIVE</Tag>
+		<English>Expansive</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXPANSIVE_SHORT</Tag>
+		<English>Exp</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXPANSIVE_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]Faster [LINK=ROUTE_ROAD]Road[\LINK] and [LINK=ROUTE_RAILROAD]Railroad[\LINK] Movement</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXPANSIVE_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FINANCIAL</Tag>
+		<English>Financial</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FINANCIAL_SHORT</Tag>
+		<English>Fin</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FINANCIAL_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]Always Build [ICON_GOLD] at a Rate of 100%[NEWLINE][SPACE][SPACE][ICON_BULLET]+1[ICON_GOLD] per Specialist[NEWLINE][SPACE][SPACE][ICON_BULLET]+25% Share when Founding Corporations</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FINANCIAL_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HUMANE</Tag>
+		<English>Humane</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HUMANE_SHORT</Tag>
+		<English>Hum</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HUMANE_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]-50% Civic Dissent[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% [LINK=UNIT_DOCTOR]Great Doctor[\LINK] emergence</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HUMANE_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IMPERIALIST</Tag>
+		<English>Imperialist</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IMPERIALIST_SHORT</Tag>
+		<English>Imp</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IMPERIALIST_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]No Resistance in Captured Cities[NEWLINE][SPACE][SPACE][ICON_BULLET]Obtain Rival [ICON_RESEARCH] when Acquiring Cities[NEWLINE][SPACE][SPACE][ICON_BULLET]-33% Hurry Production Cost</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IMPERIALIST_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INDUSTRIOUS</Tag>
+		<English>Industrious</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INDUSTRIOUS_SHORT</Tag>
+		<English>Ind</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INDUSTRIOUS_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% [LINK=UNIT_ENGINEER]Great Engineer[\LINK] emergence[NEWLINE][SPACE][SPACE][ICON_BULLET]Cities start with [LINK=BUILDING_TANNERY]Tanneries[\LINK]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INDUSTRIOUS_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JUDICIAL</Tag>
+		<English>Judicial</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JUDICIAL_SHORT</Tag>
+		<English>Jud</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JUDICIAL_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+1[ICON_CULTURE] per Specialist</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JUDICIAL_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ORGANIZED</Tag>
+		<English>Organized</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ORGANIZED_SHORT</Tag>
+		<English>Org</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ORGANIZED_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]Improvements Built 50% faster</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ORGANIZED_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MARTIAL</Tag>
+		<English>Martial</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MARTIAL_SHORT</Tag>
+		<English>Mar</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MARTIAL_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]All Military Civics available[NEWLINE][SPACE][SPACE][ICON_BULLET]Cities start with [LINK=BUILDING_BARRACKS]Barracks[\LINK]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MARTIAL_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PHILOSOPHICAL</Tag>
+		<English>Philosophical</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PHILOSOPHICAL_SHORT</Tag>
+		<English>Phi</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PHILOSOPHICAL_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% Golden Age Length[NEWLINE][SPACE][SPACE][ICON_BULLET]Always Build [ICON_RESEARCH] at a Rate of 100%</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PHILOSOPHICAL_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_POLITICAL</Tag>
+		<English>Political</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_POLITICAL_SHORT</Tag>
+		<English>Pol</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_POLITICAL_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]All Government Civics available[NEWLINE][SPACE][SPACE][ICON_BULLET]+1[ICON_ESPIONAGE] per Specialist</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_POLITICAL_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROGRESSIVE</Tag>
+		<English>Progressive</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROGRESSIVE_SHORT</Tag>
+		<English>Pro</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROGRESSIVE_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% [LINK=UNIT_SCIENTIST]Great Scientist[\LINK] emergence[NEWLINE][SPACE][SPACE][ICON_BULLET]+1[ICON_RESEARCH] per Specialist[NEWLINE][SPACE][SPACE][ICON_BULLET]+100% growth for Cottage, Hamlet, Village</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROGRESSIVE_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIRITUAL</Tag>
+		<English>Spiritual</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIRITUAL_SHORT</Tag>
+		<English>Spi</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIRITUAL_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]Cities start with State Religion[NEWLINE][SPACE][SPACE][ICON_BULLET]+50% [LINK=UNIT_PROPHET]Great Prophet[\LINK] emergence[NEWLINE][SPACE][SPACE][ICON_BULLET]Building Great Temple of State Religion starts a Golden Age</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIRITUAL_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TACTICAL</Tag>
+		<English>Tactical</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TACTICAL_SHORT</Tag>
+		<English>Tac</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TACTICAL_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]No Cost to Upgrade Military Units</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TACTICAL_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADITIONAL</Tag>
+		<English>Traditional</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADITIONAL_SHORT</Tag>
+		<English>Tra</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADITIONAL_HELP</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]-25%[ICON_PRODUCTION] Required to Construct Buildings already in Capital[NEWLINE][SPACE][SPACE][ICON_BULLET]Always Build [ICON_CULTURE] at a Rate of 100%</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADITIONAL_PEDIA</Tag>
+		<English>Needs to be written.</English>
+	</TEXT>
+
+</Civ4GameText>
