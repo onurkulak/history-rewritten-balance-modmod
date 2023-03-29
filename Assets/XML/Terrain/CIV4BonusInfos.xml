@@ -338,7 +338,7 @@
 			<Type>BONUS_SUGAR</Type>
 			<Description>TXT_KEY_BONUS_SUGAR</Description>
 			<Civilopedia>TXT_KEY_BONUS_SUGAR_PEDIA</Civilopedia>
-			<BonusClassType>BONUSCLASS_CROPS</BonusClassType>
+			<BonusClassType>BONUSCLASS_LUXURIES</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_SUGAR</ArtDefineTag>
 			<TechReveal>NONE</TechReveal>
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
@@ -2230,7 +2230,7 @@
 			<Type>BONUS_STONE</Type>
 			<Description>TXT_KEY_BONUS_STONE</Description>
 			<Civilopedia>TXT_KEY_BONUS_STONE_PEDIA</Civilopedia>
-			<BonusClassType>BONUSCLASS_MINERALS</BonusClassType>
+			<BonusClassType>BONUSCLASS_MATERIALS</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_STONE</ArtDefineTag>
 			<TechReveal>NONE</TechReveal>
 			<TechCityTrade>TECH_CARVING</TechCityTrade>
@@ -2284,7 +2284,7 @@
 			<Type>BONUS_MARBLE</Type>
 			<Description>TXT_KEY_BONUS_MARBLE</Description>
 			<Civilopedia>TXT_KEY_BONUS_MARBLE_PEDIA</Civilopedia>
-			<BonusClassType>BONUSCLASS_MINERALS</BonusClassType>
+			<BonusClassType>BONUSCLASS_MATERIALS</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_MARBLE</ArtDefineTag>
 			<TechReveal>NONE</TechReveal>
 			<TechCityTrade>TECH_CARVING</TechCityTrade>

@@ -560,9 +560,13 @@ class CvEventManager:
 					popupInfo.addPopup(iPlayer)
 
 		CvAdvisorUtils.resetNoLiberateCities()
+
+		print("printing expansive leader bug")
 		#give free tech to the expansive leaders
 		for iPlayer in xrange(gc.getMAX_CIV_PLAYERS()):
 			pPlayer = gc.getPlayer(iPlayer)
+			print(iPlayer)
+			print(HR.Trait.ExtraRoadSpeed)
 			if pPlayer.hasTrait(HR.Trait.ExtraRoadSpeed):
 				iTech = CvUtil.findInfoTypeNum(gc.getTechInfo,gc.getNumTechInfos(),'TECH_FAKE_EXPANSIVE') 
 				gc.getTeam(pPlayer.getTeam()).setHasTech(iTech, True, iPlayer, False, False)
@@ -580,6 +584,30 @@ class CvEventManager:
 		iGameTurn = argsList[0]
 		if CyGame().getAIAutoPlay() == 0:
 			CvTopCivs.CvTopCivs().turnChecker(iGameTurn)
+
+		if CyGame().isVictoryValid(gc.getInfoTypeForString('VICTORY_QUICK_DOMINATION')):
+			iPlayerHighestScore = -1
+			secondHighestScore = -1
+			highestScore = -1
+			for iPlayer in xrange(gc.getMAX_PLAYERS()):
+				pPlayer = gc.getPlayer(iPlayer)
+				if pPlayer.isAlive():
+					iPopulationScore = CvUtil.getScoreComponent(pPlayer.getPopScore(), gc.getGame().getInitPopulation(), gc.getGame().getMaxPopulation(), gc.getDefineINT("SCORE_POPULATION_FACTOR"), True, False, False)
+					iLandScore = CvUtil.getScoreComponent(pPlayer.getLandScore(), gc.getGame().getInitLand(), gc.getGame().getMaxLand(), gc.getDefineINT("SCORE_LAND_FACTOR"), True, False, False)
+					iTechScore = CvUtil.getScoreComponent(pPlayer.getTechScore(), gc.getGame().getInitTech(), gc.getGame().getMaxTech(), gc.getDefineINT("SCORE_TECH_FACTOR"), True, False, False)
+					iWondersScore = CvUtil.getScoreComponent(pPlayer.getWondersScore(), gc.getGame().getInitWonders(), gc.getGame().getMaxWonders(), gc.getDefineINT("SCORE_WONDER_FACTOR"), False, False, False)
+					playerScore = iPopulationScore + iLandScore + iWondersScore + iTechScore
+					if playerScore > highestScore:
+						secondHighestScore = highestScore
+						highestScore = playerScore
+						iPlayerHighestScore = iPlayer
+					elif playerScore > secondHighestScore:
+						secondHighestScore = playerScore
+
+			era = gc.getPlayer(iPlayerHighestScore).getCurrentEra()
+	 		iFinalEra = CvUtil.findInfoTypeNum(gc.getEraInfo,gc.getNumEraInfos(),'ERA_DIGITAL')
+	 		if highestScore > secondHighestScore * (iFinalEra-era+2):
+	 			gc.getGame().setWinner(iPlayer, 8)
 
 	### Tech Diffusion
 		TechDiffusion.TechDiffusion().doDiffusion()
@@ -1144,6 +1172,21 @@ class CvEventManager:
 					if loopPlot.getOwner() == pCity.getOwner():
 						# Does the plot have a relevant improvement?
 						if loopPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_VILLAGE') or loopPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TOWN'):
+							# Is the plot polluted?
+							if HR.hasPollution(loopPlot):
+								# Remove pollution from the plot
+								HR.removePollution(loopPlot)
+
+	### Recycling Center
+		elif iBuildingClass == gc.getInfoTypeForString('BUILDINGCLASS_RECYCLING_CENTER'):
+			# Loop through plots surrounding the city
+			for i in xrange(21):
+				loopPlot = pCity.getCityIndexPlot(i)
+				# Check plot exists
+				if not loopPlot.isNone():
+					if loopPlot.getOwner() == pCity.getOwner():
+						# Does the plot have a relevant improvement?
+						if loopPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_WORKSHOP') or loopPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_MINE'):
 							# Is the plot polluted?
 							if HR.hasPollution(loopPlot):
 								# Remove pollution from the plot

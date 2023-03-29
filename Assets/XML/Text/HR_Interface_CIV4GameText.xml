@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+
+<!-- MAIN INTERFACE -->
+
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_TITLE</Tag>
+		<English>Mod Settings</English>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>INTERFACE_ANARCHY</Tag>
+		<English>Anarchy! (%d1)</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>INTERFACE_PANE_EXPERIENCE</Tag>
+		<English>Experience:</English>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_FAITH_BAR</Tag>
+		<English>%d1 [NUM1:turn:turns]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_FAITH_BAR_HELP</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Faith: [COLOR_REVERT]%d1 of %d2[ICON_RELIGION]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_FAITH_BAR_HELP_2</Tag>
+		<English>[COLOR_GREAT_PEOPLE_RATE]%s1: [COLOR_REVERT] %d2 [NUM2:turn:turns]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_FAITH_BAR_HELP_3</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Your Reformation Influence:[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_FAITH_BAR_HELP_4</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Reformation Influence on You:[COLOR_REVERT]</English>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_GREAT_GENERAL_BAR_HELP</Tag>
+		<English>[COLOR_GREAT_PEOPLE_RATE]%s1[COLOR_REVERT][NEWLINE]%d2 of %d3 xp</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_RESEARCH_BAR</Tag>
+		<English>[ICON_RESEARCH]%s1 (%d2 [NUM2:turn:turns])</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_GREAT_PEOPLE_BAR</Tag>
+		<English>[ICON_GREATPEOPLE]%s1 - %s2 (%d3 [NUM3:turn:turns])</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_GREAT_PEOPLE_BAR_EMPTY</Tag>
+		<English>[ICON_GREATPEOPLE]None</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_GREAT_PEOPLE_HELP_HEADER</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Great People[COLOR_REVERT]</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_GREAT_PEOPLE_HELP_TURNS</Tag>
+		<English>%d1/%d2[ICON_GREATPEOPLE] (%d3 [NUM3:turn:turns])</English>
+	</TEXT>
+
+
+<!-- DAWN OF MAN -->
+
+
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_SCREEN_TITLE</Tag>
+		<English>History Rewritten</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT</Tag>
+		<English>The sun rises on the year %s1_year. Since time immemorial, the %s2_civ people have lived a nomadic life. After years of wandering, they are ready to settle down and found their first city.[NEWLINE][NEWLINE]%s3_leader, your people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!</English>
+	</TEXT>
+
+
+<!-- CITY SCREEN -->
+
+
+	<TEXT>
+		<Tag>INTERFACE_CITY_COMMERCE_RATE</Tag>
+		<English>%s1: %D2%F3</English>
+	</TEXT>
+	<TEXT>
+		<Tag>INTERFACE_CITY_COMMERCE_RATE_FLOAT</Tag>
+		<English>%s1: %s2%F3</English>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>INTERFACE_CITY_DISSENT_RATE</Tag>
+		<English>%s1: %D2%F3</English>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>INTERFACE_CITY_TURNS</Tag>
+		<English>(%d1 [NUM1:turn:turns])</English>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_CITY_FAITH</Tag>
+		<English>+%d1[ICON_RELIGION] per turn</English>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_CITY_GREAT_PEOPLE</Tag>
+		<English>+%d1[ICON_GREATPEOPLE]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_CITY_GREAT_PEOPLE_TURNS</Tag>
+		<English>+%d1[ICON_GREATPEOPLE](%d2 [NUM2:turn:turns])</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_CITY_GREAT_PEOPLE_THRESHOLD</Tag>
+		<English>/ %d1[ICON_GREATPEOPLE]</English>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_CITY_SPECIALIST_HELP_1</Tag>
+		<English>[NEWLINE]Active: %d1 of %d2</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_CITY_SPECIALIST_HELP_2</Tag>
+		<English>[NEWLINE]Free: %d1</English>
+	</TEXT>
+
+
+<!-- CIVICS ADVISOR -->
+
+
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SCREEN_DISSENT</Tag>
+		<English>Dissent: %d1[ICON_OCCUPATION] per turn</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SCREEN_UPKEEP</Tag>
+		<English>Upkeep: %d1[ICON_GOLD] per turn</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SCREEN_ANARCHY_TIMER</Tag>
+		<English>Anarchy for %d1 [NUM1:turn:turns]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SCREEN_REVOLUTION_TIMER</Tag>
+		<English>Revolution possible in %d1 [NUM1:turn:turns]</English>
+	</TEXT>
+
+
+<!-- TENETS ADVISOR -->
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TENETS_SCREEN_HELP</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Tenets Advisor[COLOR_REVERT] [COLOR_POSITIVE_TEXT]&lt;F8&gt;[COLOR_REVERT]</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_TENET_SCREEN_PROPHET_NEEDED</Tag>
+		<English>Reformation requires a Great Prophet</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_TENET_SCREEN_ANARCHY_TIMER</Tag>
+		<English>Anarchy for %d1 [NUM1:turn:turns]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TENET_SCREEN_REFORMATION_TIMER</Tag>
+		<English>Reformation possible in %d1 [NUM1:turn:turns]</English>
+	</TEXT>
+
+
+<!-- TECHNOLOGY ADVISOR -->
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SCREEN_FILTER_KNOWN</Tag>
+		<English>Hide Known Technologies</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SCREEN_FILTER_CLAIMED</Tag>
+		<English>Hide Benefits No Longer Available</English>
+	</TEXT>
+
+
+<!-- VICTORY SCREEN -->
+
+
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_BUILDING</Tag>
+		<English>%s1 (%s2)</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_BUILT</Tag>
+		<English>Built by %s1</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_NOT_BUILT</Tag>
+		<English>Not yet built</English>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_RIVALS_REMAINING</Tag>
+		<English>Remaining:</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_RIVALS_DEFEATED</Tag>
+		<English>Defeated:</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_RIVALS_VASSALED</Tag>
+		<English>Vassals:</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_RIVALS_UNKNOWN</Tag>
+		<English>Unknown:</English>
+	</TEXT>
+
+
+<!-- PEDIA -->
+
+
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_TITLE</Tag>
+		<English>CIVILOPEDIA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CONTENTS</Tag>
+		<English>Contents</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_DETAILS</Tag>
+		<English>Details</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FAVOURITES</Tag>
+		<English>Favourites</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_YIELDS</Tag>
+		<English>Yields</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_BONUS_YIELDS</Tag>
+		<English>Resource Yields</English>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TENET</Tag>
+		<English>Tenets</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_ORGANIZATIONS</Tag>
+		<English>Organizations</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_MILITARY_UNITS</Tag>
+		<English>Military Units</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_UNIQUE_UNITS</Tag>
+		<English>Unique Units</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_UNIT_CHARTS</Tag>
+		<English>Unit Charts</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_UNIT_UPGRADES</Tag>
+		<English>Unit Upgrades</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_PROMOTION_TREE</Tag>
+		<English>Promotions Chart</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_RELIGIOUS_BUILDINGS</Tag>
+		<English>Religious Buildings</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_UNIQUE_BUILDINGS</Tag>
+		<English>Unique Buildings</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_UNIQUE_WONDERS</Tag>
+		<English>Unique Wonders</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_NATIONAL_WONDERS</Tag>
+		<English>National Wonders</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_WORLD_WONDERS</Tag>
+		<English>World Wonders</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TERRAIN</Tag>
+		<English>Terrain</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_NATURAL_WONDERS</Tag>
+		<English>Natural Wonders</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_CONCEPTS</Tag>
+		<English>Concepts</English>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_HEADER_RELIGION</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_HEADER_SPECIALIST</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Specialists[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_HEADER_GREAT_SPECIALIST</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Great Specialists[COLOR_REVERT]</English>
+	</TEXT>
+
+
+<!-- MENU -->
+
+
+	<TEXT>
+		<Tag>TXT_KEY_MAIN_MENU_SELECT_A</Tag>
+		<English>Select[SPACE]</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_MAIN_MENU_SELECT_A_MAP</Tag>
+		<English>Select Map</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_MAIN_MENU_SELECT_A_CLIMATE</Tag>
+		<English>Select Climate</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_MAIN_MENU_SELECT_A_SEALEVEL</Tag>
+		<English>Select Sealevel</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_MAIN_MENU_SELECT_A_DIFFICULTY</Tag>
+		<English>Select Difficulty</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_MAIN_MENU_SELECT_A_CIV</Tag>
+		<English>Select Civilization</English>
+	</TEXT>
+
+
+<!-- GAME OPTIONS -->
+
+
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_PICK_RELIGION</Tag>
+		<English>Fewer Religions</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_PICK_RELIGION_HELP</Tag>
+		<English>Lowers the ratio of religions to civilizations to 2:3 (default is 1:1)</English>
+	</TEXT>
+
+
+<!-- VICTORY CONDITIONS -->
+
+
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGIOUS</Tag>
+		<English>Religious</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGIOUS_PEDIA</Tag>
+		<English>A Religious Victory requires controlling a Holy City with 80% religious influence.</English>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_QUICK_DOMINATION</Tag>
+		<English>Quick Score</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_QUICK_DOMINATION_PEDIA</Tag>
+		<English>A quick score victory requires having 2X score of your closest opponent in digital era, or 3X, 4X and so forth in earlier eras.</English>
+	</TEXT>
+
+<!-- WORLD SIZES -->
+
+
+	<TEXT>
+		<Tag>TXT_KEY_WORLD_GIANT</Tag>
+		<English>Giant</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLD_GIANT_HELP</Tag>
+		<English>15 civilizations.</English>
+	</TEXT>
+
+
+<!-- COMBAT ODDS -->
+
+
+	<TEXT>
+		<Tag>TXT_ACO_VS</Tag>
+		<English>[COLOR_POSITIVE_TEXT]%s1[COLOR_REVERT] vs. [COLOR_NEGATIVE_TEXT]%s2[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_BarbFreeWinsLeft</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Barbarian free wins left:[SPACE][COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_PressSHIFT</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Press SHIFT for more detail[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_SurvivalOdds</Tag>
+		<English>Survival odds:[SPACE]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_SurvivalGuaranteed</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Survival Guaranteed![COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_Victory</Tag>
+		<English>[COLOR_POSITIVE_TEXT]Victory[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_Defeat</Tag>
+		<English>[COLOR_NEGATIVE_TEXT]Defeat[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_Withdraw</Tag>
+		<English>[COLOR_POSITIVE_TEXT]Withdraw[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_Retreat</Tag>
+		<English>[COLOR_UNIT_TEXT]Retreat[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_AverageHP</Tag>
+		<English>[NEWLINE]Average HP:[SPACE]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_Unharmed</Tag>
+		<English>[NEWLINE]Unharmed:[SPACE]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_UnroundedXP</Tag>
+		<English>[NEWLINE]Unrounded XP:[SPACE]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_TotalDefenseModifier</Tag>
+		<English>[NEWLINE]Total defense modifier:[SPACE]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_AttackModifiers</Tag>
+		<English>[NEWLINE][COLOR_POSITIVE_TEXT]Attack modifiers:[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_DefenseModifiers</Tag>
+		<English>[NEWLINE][COLOR_NEGATIVE_TEXT]Defense modifiers:[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_GuaranteedNoDefenderHit</Tag>
+		<English>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Guaranteed! Defender cannot score a hit.[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_HitsAt</Tag>
+		<English>hits at</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_HP</Tag>
+		<English>HP</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_INJURED_HP</Tag>
+		<English>%d1/%d2HP</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_HP_NEUTRAL</Tag>
+		<English>[COLOR_UNIT_TEXT]HP[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_XP</Tag>
+		<English>XP</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_MULTIPLY</Tag>
+		<English>&#x0D7;</English>
+	</TEXT>
+
+
+<!-- STRATEGY OVERLAY -->
+
+
+	<TEXT>
+	    <Tag>TXT_KEY_STRATOVERLAY_TITLE</Tag>
+		<English>Strategy Overlay</English>
+	</TEXT>
+	<TEXT>
+	    <Tag>TXT_KEY_STRATOVERLAY_DOTMAPPER</Tag>
+		<English>Dot Mapper</English>
+	</TEXT>
+	<TEXT>
+	    <Tag>TXT_KEY_STRATOVERLAY_PLACECITY</Tag>
+		<English>Place City</English>
+	</TEXT>
+	<TEXT>
+	    <Tag>TXT_KEY_STRATOVERLAY_REMOVECITY</Tag>
+		<English>Remove City</English>
+	</TEXT>
+	<TEXT>
+	    <Tag>TXT_KEY_STRATOVERLAY_COLORSELECT</Tag>
+		<English>Color Selection</English>
+	</TEXT>
+	<TEXT>
+	    <Tag>TXT_KEY_STRATOVERLAY_SIGNS</Tag>
+		<English>Signs</English>
+	</TEXT>
+	<TEXT>
+	    <Tag>TXT_KEY_STRATOVERLAY_ADDSIGN_TITLE</Tag>
+		<English>Add Overlay Sign</English>
+	</TEXT>
+	<TEXT>
+	    <Tag>TXT_KEY_STRATOVERLAY_ADDSIGN_BODY</Tag>
+		<English>Caption for the sign</English>
+	</TEXT>
+	<TEXT>
+	    <Tag>TXT_KEY_STRATOVERLAY_ADDSIGN</Tag>
+		<English>Add Sign</English>
+	</TEXT>
+	<TEXT>
+	    <Tag>TXT_KEY_STRATOVERLAY_REMOVESIGN</Tag>
+		<English>Remove Sign</English>
+	</TEXT>
+	<TEXT>
+	    <Tag>TXT_KEY_STRATOVERLAY_ADDSIGN_EDITBOX_HELP</Tag>
+	    <English>Enter the text to be displayed on the sign</English>
+	</TEXT>
+
+</Civ4GameText>
