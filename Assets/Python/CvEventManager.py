@@ -561,12 +561,9 @@ class CvEventManager:
 
 		CvAdvisorUtils.resetNoLiberateCities()
 
-		print("printing expansive leader bug")
 		#give free tech to the expansive leaders
 		for iPlayer in xrange(gc.getMAX_CIV_PLAYERS()):
 			pPlayer = gc.getPlayer(iPlayer)
-			print(iPlayer)
-			print(HR.Trait.ExtraRoadSpeed)
 			if pPlayer.hasTrait(HR.Trait.ExtraRoadSpeed):
 				iTech = CvUtil.findInfoTypeNum(gc.getTechInfo,gc.getNumTechInfos(),'TECH_FAKE_EXPANSIVE') 
 				gc.getTeam(pPlayer.getTeam()).setHasTech(iTech, True, iPlayer, False, False)
@@ -584,30 +581,6 @@ class CvEventManager:
 		iGameTurn = argsList[0]
 		if CyGame().getAIAutoPlay() == 0:
 			CvTopCivs.CvTopCivs().turnChecker(iGameTurn)
-
-		if CyGame().isVictoryValid(gc.getInfoTypeForString('VICTORY_QUICK_DOMINATION')):
-			iPlayerHighestScore = -1
-			secondHighestScore = -1
-			highestScore = -1
-			for iPlayer in xrange(gc.getMAX_PLAYERS()):
-				pPlayer = gc.getPlayer(iPlayer)
-				if pPlayer.isAlive():
-					iPopulationScore = CvUtil.getScoreComponent(pPlayer.getPopScore(), gc.getGame().getInitPopulation(), gc.getGame().getMaxPopulation(), gc.getDefineINT("SCORE_POPULATION_FACTOR"), True, False, False)
-					iLandScore = CvUtil.getScoreComponent(pPlayer.getLandScore(), gc.getGame().getInitLand(), gc.getGame().getMaxLand(), gc.getDefineINT("SCORE_LAND_FACTOR"), True, False, False)
-					iTechScore = CvUtil.getScoreComponent(pPlayer.getTechScore(), gc.getGame().getInitTech(), gc.getGame().getMaxTech(), gc.getDefineINT("SCORE_TECH_FACTOR"), True, False, False)
-					iWondersScore = CvUtil.getScoreComponent(pPlayer.getWondersScore(), gc.getGame().getInitWonders(), gc.getGame().getMaxWonders(), gc.getDefineINT("SCORE_WONDER_FACTOR"), False, False, False)
-					playerScore = iPopulationScore + iLandScore + iWondersScore + iTechScore
-					if playerScore > highestScore:
-						secondHighestScore = highestScore
-						highestScore = playerScore
-						iPlayerHighestScore = iPlayer
-					elif playerScore > secondHighestScore:
-						secondHighestScore = playerScore
-
-			era = gc.getPlayer(iPlayerHighestScore).getCurrentEra()
-	 		iFinalEra = CvUtil.findInfoTypeNum(gc.getEraInfo,gc.getNumEraInfos(),'ERA_DIGITAL')
-	 		if highestScore > secondHighestScore * (iFinalEra-era+2):
-	 			gc.getGame().setWinner(iPlayer, 8)
 
 	### Tech Diffusion
 		TechDiffusion.TechDiffusion().doDiffusion()
@@ -652,7 +625,36 @@ class CvEventManager:
 						pPlayer.removeBuildingClass(gc.getInfoTypeForString('BUILDINGCLASS_OLYMPIC_GAMES'))
 						CyInterface().addMessage(iPlayer, True, gc.getEVENT_MESSAGE_TIME(), CyTranslator().getText('TXT_KEY_MESSAGE_OLYMPIC_GAMES_END', ()), '', 0, '', ColorTypes(gc.getInfoTypeForString('COLOR_WHITE')), -1, -1, False, False)
 						break
-		###
+
+		if CyGame().isVictoryValid(gc.getInfoTypeForString('VICTORY_QUICK_DOMINATION')):
+			iTeamHighestScore = -1
+			secondHighestScore = -1
+			highestScore = -1
+
+			for iLoopTeam in xrange(gc.getMAX_CIV_TEAMS()):
+				if not gc.getTeam(iLoopTeam).isMinorCiv():
+					if gc.getTeam(iLoopTeam).isAlive():
+						teamScore = CyGame().getTeamScore(iLoopTeam)
+					
+						if teamScore > highestScore:
+							secondHighestScore = highestScore
+							highestScore = teamScore
+							iTeamHighestScore = iLoopTeam
+						elif teamScore > secondHighestScore:
+							secondHighestScore = teamScore
+
+			for iLoopPlayer in xrange(gc.getMAX_CIV_PLAYERS()):
+				if gc.getPlayer(iLoopPlayer).isAlive():
+					if gc.getPlayer(iLoopPlayer).getTeam() == iTeamHighestScore:
+						era = gc.getPlayer(iLoopPlayer).getCurrentEra()			
+						break
+			
+	 		iFinalEra = CvUtil.findInfoTypeNum(gc.getEraInfo,gc.getNumEraInfos(),'ERA_DIGITAL')
+	 		
+			if highestScore > (secondHighestScore * (iFinalEra-era+2)):
+	 			mstr = "quick victory debug " + str(highestScore) + " " + str(secondHighestScore) + " " + str(iTeamHighestScore) + " " + str(era)+ " " + str(iFinalEra)+ " " + str(secondHighestScore * (iFinalEra-era+2))+ " " + str(gc.getMAX_PLAYERS())
+	 			print(mstr)
+	 			gc.getGame().setWinner(iTeamHighestScore, 8)
 
 
 

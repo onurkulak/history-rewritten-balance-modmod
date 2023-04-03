@@ -162,12 +162,13 @@
 			<VictoryMovie/>
 		</VictoryInfo>
 
+
 		<VictoryInfo>
-			<Type>QUICK_DOMINATION</Type>
+			<Type>VICTORY_QUICK_DOMINATION</Type>
 			<Description>TXT_KEY_VICTORY_QUICK_DOMINATION</Description>
 			<Civilopedia>TXT_KEY_VICTORY_QUICK_DOMINATION_PEDIA</Civilopedia>
 			<bTargetScore>0</bTargetScore>
-			<bEndScore>0</bEndScore>
+			<bEndScore>1</bEndScore>
 			<bConquest>0</bConquest>
 			<bDiploVote>0</bDiploVote>
 			<bPermanent>0</bPermanent>
